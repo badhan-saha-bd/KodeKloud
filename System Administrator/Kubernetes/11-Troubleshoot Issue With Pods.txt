@@ -1,0 +1,3 @@
+use the following kubectl command to patch the pod
+
+kubectl patch pod webserver -p '{"spec":{"containers":[{"name":"nginx-container","image":"nginx:latest"}]}}'
